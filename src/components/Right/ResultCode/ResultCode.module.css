@@ -1,0 +1,11 @@
+
+.code_result{
+    border: 1px solid gray;
+    overflow-y: auto;
+    font-family: monospace;
+    margin: 10px;
+    padding: 10px;
+    background-color:aliceblue;
+    border-radius:10px;
+    height: 100%;
+}

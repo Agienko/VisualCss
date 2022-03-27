@@ -1,0 +1,44 @@
+.Left_wrapper{
+    z-index: 2;
+    grid-area: left;
+    border-radius: 10px 0 0 10px;
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+}
+
+.input_container{
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.input_container input{
+    margin-top: 10px;
+    width: 100%;
+}
+.input_container .input_color{
+    margin-top: 10px;
+    width:30px;
+    height:30px;
+    border: none;
+}
+
+
+.input_checkbox{
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.input_checkbox input{
+    position: relative;
+    top: 2px;
+    left: 5px;
+   align-self:center;
+} 

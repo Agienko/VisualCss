@@ -1,0 +1,14 @@
+.btn{
+    margin-bottom: 5px;
+    display: flex;
+    user-select: none;
+    align-items: center;
+}
+
+.btn button{
+    padding: 0 3px;
+}
+.disable{
+   color:gray;
+   text-decoration: line-through;
+}
